@@ -1,0 +1,5 @@
+classes = 1
+train  = /content/darknet/data/key_train.txt
+valid  = /content/darknet/data/key_test.txt
+names = data/key.names
+backup = backup
