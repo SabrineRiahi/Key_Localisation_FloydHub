@@ -12,8 +12,8 @@ def convert(size, box):
     dh = 1./size[1]
     x = float((box[0] + box[1]))/2.0
     y = float((box[2] + box[3]))/2.0
-    w = box[1] - box[0]
-    h = box[3] - box[2]
+    w = float(box[1] - box[0])
+    h = float(box[3] - box[2])
     x = x*dw
     w = w*dw
     y = y*dh
