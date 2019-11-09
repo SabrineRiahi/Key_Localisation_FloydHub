@@ -49,7 +49,7 @@ while i <= len(line) :
     box = [tab[1000-i][1], tab[1000-i][3], tab[1000-i][2], tab[1000-i][4]]
     x,y,w,h = convert(size,box)
     
-    annotation.write(21 + " " + x + " " + y + " " + w + " " + h)
+    annotation.write("21" + " " + str(x) + " " + str(y) + " " + str(w) + " " + str(h))
     annotation.close()
     i+=1
     
